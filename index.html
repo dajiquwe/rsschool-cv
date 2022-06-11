@@ -4,19 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>CV</title>
 </head>
 <body>
-    <ul>
-        <li>Zolvanov Dzhangar</li>
-        <li>e-mail:djangar_z@mail.ru</li>
-        <li>I wand to improve my programming skills and get some expirience to find a good job.</li>
-        <li>Programming skills:HTML,CSS,JS(junior)</li>
-        <li>Courses: codebra,htmlacademy.ru</li>
-        <li>Bachelor degree in IT</li>
-        <li>English level: Pre-intermediate</li>
-    </ul>
-    <img src="avatar.png" alt="#">
+    <div class="wrapper">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Code</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="left-block">
+                <img src="images/avatar.png" alt="avatar" id = "avatar">
+                <section>
+                    <h2>Contacts</h2>
+                </section>
+                <p>e-mail: djangar_z@mail.ru</p>
+                <p>discord: dajiquwe</p>
+                <p>telegram: dajiquwe</p>
+            </div>
+            <div class="right-block">
+                <h1>Zolvanov <br> Dzhangar</h1>
+                <p>Front-End developer</p><br><br><br>
+                <section>
+                    <h2>About me</h2>
+                </section>
+                <p>I like to study and learn something new. Like to play computer games and chess. Want to improve my programming skills and get some expirience to find a good job.</p>
+                <section>
+                    <h2>Skills</h2>
+                </section>
+                <p>Programming skills:HTML,CSS,JS(junior),React basics.</p>
+                <section>
+                    <h2>Education</h2>
+                </section>
+                <p>Kalmyk State University. Speciality: FIIT. English level: Intermediate(B1)</p>
+                <section>
+                    <h2>Code</h2>
+                </section>
+                <pre><code>console.log('Hello world');</code></pre>
+            </div>
+        </main>
+        <footer>
+            <ul>
+                <li><a href="https://github.com/dajiquwe" target="_blank">Github</a></li>
+                <li>2022</li>
+                <li><a href="https://rs.school/js/" target="_blank"><img src="images/rs_school.svg" alt="logo"></a></li>
+            </ul> 
+        </footer>
+    </div>
 </body>
 </html>
